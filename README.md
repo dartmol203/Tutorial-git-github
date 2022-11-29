@@ -1,4 +1,4 @@
-# Tutorial-git-github
+# Tutorial Git e GitHub
 
 ## Objetivos
 
@@ -43,7 +43,7 @@ Antes de se instalar, verifique se o seu sistema já não possui o git instalado
 $ git version
 ```
 
-caso tenha o git instalado, ele vai imprimir na tela a versão instalada no seu computador no seguite formato:
+Caso tenha o git instalado, ele vai imprimir na tela a versão instalada no seu computador no seguite formato:
 
 ```
 > git version 2.35.1.windows.2
@@ -88,3 +88,56 @@ $ git config --global user.email
 
 > seu.email@exemplo.com
 ```
+
+# Criando seu primeiro repositório
+
+## O que é um repositório?
+
+Um repositório, muitas vezes chamado de repo, é um diretório especial que possui uma sub-pasta oculta ".git/" que armazena todo o histórico do seu projeto, por isso, pense muito bem antes de mexer com ela.
+
+## Como criar um repositório
+
+Para criar o seu primeiro repo, é recomendado segui os seguintes passos:
+
+1. Crie uma nova pasta no seu computador, pode ser com qualquer nome, utilizaremos "tutorial-git" durante esse guia.
+
+2. Abra a pasta criada no seu editor de preferência, aqui usaremos o VScode.
+
+3. Crie um arquivo "README.md", esse arquivo estará presente em praticamente todos os repositórios que você ver, ele é utilizado para passar quaisquer informações uteis sobre o repositório para os usuários e contribuidores dele.
+    - A extensão ".md" do arquivo criado, se refere a liguagem de marcação "MarkDown", com marcadores faceis de se entender e utilizar, outro exemplo de linguagem de marcação é o HTML, muito usado em desenvolvimento WEB.
+
+4. No arquivo criado, escreva a descrição do repositório, por exemplo:
+    ```
+    Este é o meu primeiro repositório git!
+    ```
+5. Não se esqueça de salvar o arquivo depois da edição!
+
+6. Seu repositório deve estar assim:
+
+    ![repo versão inicial](./images/repo-incial.jpeg)
+
+7. Abra o terminal na pasta desejada
+   
+    - No windows, com a pasta aberta no explorador de arquivos, pode-se abrir direto na pasta desejada ao digitar "cmd" e confirmando no enredeço do diretório
+
+8. utilize o seguinte comando para inicializar seu repo:
+    ```
+    $ git init
+    ```
+9. Caso seja bem sucedido, o comando retornará o seguinte resultado:
+    ``` C++
+    >  Initialized empty Git repository in {path}/tutorial-git/.git/
+    ```
+
+### Pronto, com isso, seu repositório está criado, com sua pasta /.git adicionada. Agora tá na hora de conhecer o que o git tem a oferecer.
+
+# Como utilizar o seu repositório?
+
+
+
+# Desafio
+
+
+
+
+
