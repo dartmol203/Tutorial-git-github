@@ -243,5 +243,17 @@ Ao se utilizar um repositório do git, existem 3 camadas principais em que os ar
 
 - Após isso, podemos recarregar a página do GitHub e as nossas alterações estarão lá!!
 
+<!-- TO-DO 
+
+
+- branches
+
+- clone /fork
+
+- PR's
+
+
+
+ -->
 # Desafio
 
