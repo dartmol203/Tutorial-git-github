@@ -283,9 +283,46 @@ Ao se utilizar um repositório do git, existem 3 camadas principais em que os ar
 
 - Dessa forma, sua branch está criada.
 
+- Para jogar suas mudanças para o GitHub, deve-se fazer os passos de commit ensinados anteriormente:
+
+    ```bash
+    >> git add <nome do arquivo>
+
+    >>git commit -m "update README.md"
+    
+    [update-readme bb32a58] update README.md
+    1 file changed, 3 insertions(+), 1 deletion(-)
+    
+    ```
+
+- E por fim, fazer o "git push"
+
+    ```bash
+    >> git push origin update-readme
+
+    Enumerating objects: 5, done.
+    Counting objects: 100% (5/5), done.
+    Delta compression using up to 8 threads
+    Compressing objects: 100% (2/2), done.
+    Writing objects: 100% (3/3), 332 bytes | 166.00 KiB/s, done.
+    Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+    remote:
+    remote: Create a pull request for 'update-readme' on GitHub by visiting:
+    remote:      https://github.com/dartmol203/first-repo/pull/new/update-readme
+    remote:
+    To https://github.com/dartmol203/first-repo.git
+    * [new branch]      update-readme -> update-readme
+    ```
+- Se você atualizar seu GitHub, sua branch nova vai estar lá! <br>
+    ![branch no GH](./images/branch%20pushed.jpg)
+
 ### Pelo GitHub
 
-*TO_DO*
+- Para criar uma nova branch pelo GitHub é bem simples, basta clicar no botão na parte superior a esquerda e indicar o nome da branch que deve ser criada.
+
+    ![nova branch](./images/new-branch.jpg)
+
+- Dessa forma, a branch está criada, basta atualizar seu repositório local com o "git push"
 
 # E se eu quiser contribuir no repositório de outra pessoa?
 
