@@ -243,6 +243,65 @@ Ao se utilizar um repositório do git, existem 3 camadas principais em que os ar
 
 - Após isso, podemos recarregar a página do GitHub e as nossas alterações estarão lá!!
 
+# Como trabalhar no projeto sem afetar o codigo funcional?
+
+## O que é uma branch?
+
+- Uma branch é uma ramificação do seu repositório, a main que foi citada acima é a ramificação principal, mas um repo pode ter inúmeras ramificações.
+
+- Uma branch sempre é ramificada de outra branch, muitas vezes vão sair da main, mas qualquer branch pode ser ramificada novamente.
+
+## Como criar uma branch?
+
+### Pelo terminal
+
+- vamos criar uma branch para editar o README que criamos.
+
+- para criar uma branch pelo terminal deve-se usar o seguinte comando, já no seu repositório de trabalho:
+
+    ```bash
+    >> git branch update-readme
+    ```
+- Para verificar se a branch foi criada, podemos executar o comando "git branch", o qual retorna as branchs existentes e em qual você está
+
+    ``` bash
+    >> git branch
+    
+    * main
+    update-readme
+    ```
+
+- A branch foi criada com sucesso, agora temos que mudar a ramificação que estamos trabalhando, para isso, usamos o comando "git checkout \<nome da branch>"
+
+    ```bash
+    >> git checkout update-readme
+
+    Switched to branch 'update-readme'
+    ```
+
+- É possivel fazer os dois passos anteriores com apenas uma linha de comando, utilizando o "git checkout -b \<nome da branch>"
+
+- Dessa forma, sua branch está criada.
+
+### Pelo GitHub
+
+*TO_DO*
+
+# E se eu quiser contribuir no repositório de outra pessoa?
+
+## Formas de se contribuir
+- Para trabalhar em equipe, há 2 formas principais de se fazer isso:
+    - Participar como colaborador do repositório -> você tem direitos de alterar o repo, tem diversos níveis de permissões que o dono pode ceder aos participantes;
+
+    - Copiar o repositório para a sua conta e propor mudanças por meio de um Pull Request (PR) -> esse metódo é muito usado para contribuir em software open-source.
+
+- Nesse tutorial, vamos focar na segunda forma citada acima.
+
+## Fork e Git clone
+
+- Com o GitHub, é possivel copiar o repositório para o seu perfil por meio de um "fork".
+
+
 <!-- TO-DO 
 
 
