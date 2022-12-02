@@ -322,7 +322,31 @@ Ao se utilizar um repositório do git, existem 3 camadas principais em que os ar
 
     ![nova branch](./images/new-branch.jpg)
 
-- Dessa forma, a branch está criada, basta atualizar seu repositório local com o "git push"
+*como puxar pro local pelo terminal!!*
+
+
+## Como meclar as mudanças entre duas branchs?
+
+- A fim de juntar duas branchs, utilizamos o comando "git merge", ele deve ser utilizado quando estando na branch base e chamando a branch que vai escrever por cima;
+
+    ```bash
+    >> git checkout main
+
+    >> git merge update-readme
+    Updating 2b041d1..bb32a58
+    Fast-forward
+    README.md | 4 +++-
+    1 file changed, 3 insertions(+), 1 deletion(-)
+    ```
+
+- E por fim, enviar para o GitHub com o "git push":
+
+    ```
+    >> git push origin main
+    Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+    To https://github.com/dartmol203/first-repo.git
+    2b041d1..bb32a58  main -> main
+    ```
 
 # E se eu quiser contribuir no repositório de outra pessoa?
 
