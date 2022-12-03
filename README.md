@@ -325,11 +325,11 @@ Ao se utilizar um repositório do git, existem 3 camadas principais em que os ar
 *como puxar pro local pelo terminal!!*
 
 
-## Como meclar as mudanças entre duas branchs?
+## Como mesclar as mudanças entre duas branchs?
 
 - A fim de juntar duas branchs, utilizamos o comando "git merge", ele deve ser utilizado quando estando na branch base e chamando a branch que vai escrever por cima;
 
-    ```bash
+    ```C
     >> git checkout main
 
     >> git merge update-readme
@@ -341,7 +341,7 @@ Ao se utilizar um repositório do git, existem 3 camadas principais em que os ar
 
 - E por fim, enviar para o GitHub com o "git push":
 
-    ```
+    ```C
     >> git push origin main
     Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
     To https://github.com/dartmol203/first-repo.git
@@ -358,17 +358,22 @@ Ao se utilizar um repositório do git, existem 3 camadas principais em que os ar
 
 - Nesse tutorial, vamos focar na segunda forma citada acima.
 
-## Fork e Git clone
+## Fork
 
 - Com o GitHub, é possivel copiar o repositório para o seu perfil por meio de um "fork".
 
+- Para realizar o fork, entre no repositório que quiser clonar e no canto superior direito, clique em "fork"
+
+    ![como fazer um fork](./images/fork.jpg)
+- Ao clicar, você vai ser redirecionado para uma página para resolver algumas informações sobre o fork, recomendo criar sem qualquer alteração, basta utilizar o botão "create fork".
+
+    ![tela fork](./images/new-fork.jpg)
+
+## git Clone
 
 <!-- TO-DO 
 
-
-- branches
-
-- clone /fork
+- clone
 
 - PR's
 
