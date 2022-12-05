@@ -419,3 +419,13 @@ Ao se utilizar um repositório do git, existem 3 camadas principais em que os ar
 # Desafio
 
 
+
+# Referencias:
+
+[Tutorial da Rafa Ballerini](https://github.com/rafaballerini/GitTutorial)
+
+[Tutorial do Otacilio Maia](https://github.com/OtacilioMaia/Aprenda-Git)
+
+[Documentação do git](https://git-scm.com/doc)
+
+[Guias do GitHub](https://github.com/git-guides)
