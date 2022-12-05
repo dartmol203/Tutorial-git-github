@@ -61,6 +61,7 @@ Abra o terminal e digite o seguinte comando:
 
 ``` C++
 $ git config --global user.name "Seu usuario" 
+
 // substitua pelo seu nome de usuário
 ```
 
@@ -78,6 +79,7 @@ Abra o terminal e digite o seguinte comando:
 
 ``` C++
 $ git config --global user.email "seu.email@exemplo.com" 
+
 // substitua pelo seu email
 ```
 
@@ -365,20 +367,55 @@ Ao se utilizar um repositório do git, existem 3 camadas principais em que os ar
 - Para realizar o fork, entre no repositório que quiser clonar e no canto superior direito, clique em "fork"
 
     ![como fazer um fork](./images/fork.jpg)
+
 - Ao clicar, você vai ser redirecionado para uma página para resolver algumas informações sobre o fork, recomendo criar sem qualquer alteração, basta utilizar o botão "create fork".
 
     ![tela fork](./images/new-fork.jpg)
 
-## git Clone
+## Como copiar o repositório do gitHub para o local?
 
-<!-- TO-DO 
+- Agora que já tem seu fork do repositório, basta clonar o repo para o local por meio do "git clone":
 
-- clone
+    ```bash
+    >>  git clone https://github.com/dartmol203/Tutorial-git-github.git  
 
-- PR's
+    Cloning into 'Tutorial-git-github'...
+    remote: Enumerating objects: 55, done.
+    remote: Counting objects: 100% (55/55), done.
+    remote: Compressing objects: 100% (54/54), done.
+    remote: Total 55 (delta 19), reused 0 (delta 0), pack-reused 0
+    Receiving objects: 100% (55/55), 404.66 KiB | 388.00 KiB/s, done.
 
+    Resolving deltas: 100% (19/19), done.  
+    ```
+- Lembre-se de colocar o link do seu repositório, você pode pegar o link no fork no seu perfil, no canto superior direito
 
+    ![onde clonar GH](./images/clone-github.jpg)
 
- -->
+## Trabalhando no repositório
+
+- faça todas as mudanças que julgar necessário, utilizando os conceitos citados acima (Branch, add, commit, push...)
+
+## Como propor as mudanças realizadas para o repo original?
+
+- Após ter feito o commit com suas mudanças no seu fork, volte ao GitHub, no seu repositório vai ter a opção de comparar e criar um Pull Request (PR), clique nela.
+
+    ![compare and Pull request](./images/compare%20and%20pull.jpg)
+
+    ### O que é um Pull Request?
+
+    - Um PR é uma requisição para se mesclar (dar merge) entre duas branches, nesse caso, estamos fazendo entre dois repositórios.
+
+    - PR's são essenciais para manter a segurança e qualidade de códigos, não é o ideal a pessoa que criou o PR aprovar o mesmo.
+
+- Ao clicar, você vai ser redirecionado para a tela de criação do PR, lá vai ter diversas informações importantes, como o destino e a origem das modificações e a descrição das mudanças realizadas.
+
+    ![create PR](./images/PR.jpg)
+
+- Lembre-se de *SEMPRE* colocar nome e descrição significativos!
+
+- Para finalizar, basta clicar no botão "create pull request" e esperar o dono do repositório avaliar suas mudanças, aprovando, recusando ou requisitando mudanças para poder ser aceito.
+
 # Desafio
+
 
