@@ -418,6 +418,25 @@ Ao se utilizar um repositório do git, existem 3 camadas principais em que os ar
 
 # Desafio
 
+- Para encerrar o tutorial, proponho um desafio, fazer uma contribuição a esse repositorio, criando um arquivo novo \<nome de usuário>.md na pasta /_colaboradores, seguindo o padrão a baixo:
+    
+    ```
+    ---
+    user: <nome do seu usuario>
+    time: aaaa-mm-dd hh:mm:ss  
+    quote: <resposta da pergunta a seguir>
+    ---
+    ```
+
+- Responda a seguinte pergunta: *O que achou do tutorial e qual poderia ser o próximo assunto a ser tratado?*
+
+- Lembre-se de não utilizar caracteres especiais no seu arquivo.
+
+# Despedida
+
+Espero que o tutorial tenha sido útil! quaisquer sugestões de melhora podem me enviar um email em andre.correa.silva203@gmail.com ou fazer o Pull Request que avaliaremos e fazemos o merge!
+
+Até o próximo tutorial!
 
 
 # Referencias:
@@ -429,3 +448,5 @@ Ao se utilizar um repositório do git, existem 3 camadas principais em que os ar
 [Documentação do git](https://git-scm.com/doc)
 
 [Guias do GitHub](https://github.com/git-guides)
+
+[O é git? - atlassian](https://www.atlassian.com/br/git/tutorials/what-is-git)
