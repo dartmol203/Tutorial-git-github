@@ -4,6 +4,7 @@ on:
     types: [opened]
 jobs:
   build:
+    permissions: write-all
     name: Post welcome comment
     runs-on: ubuntu-latest
     steps:
