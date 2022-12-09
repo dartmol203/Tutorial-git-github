@@ -3,14 +3,11 @@ on:
   pull_request:
     types: [opened]
 
-permissions:
-  contents: read
-  issues: write
-  pull-requests: write
-
 jobs:
   build:
     name: Post welcome comment
+    permissions:
+      pull-requests: write
     runs-on: ubuntu-latest
     steps:
       - run: gh pr comment $PR_URL --body "Obrigado pela contribuição, vamos revisar o seu PR e dar merge logo em seguida!"
