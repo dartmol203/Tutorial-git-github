@@ -19,7 +19,7 @@ O [Git](https://git-scm.com) foi publicado originalmente em abril de 2005 e foi 
 
 ## GitHub
 
-É uma plataforma de hospedagem de código fonte, amplamente utilizada por milhares de usuários diariamente, tanto para projetos pessoais ou faculdade, qunato para uso profissional e código aberto.
+É uma plataforma de hospedagem de código fonte, amplamente utilizada por milhares de usuários diariamente, tanto para projetos pessoais ou faculdade, quanto para uso profissional e código aberto.
 
 <img src="./images/github-icon.png" alt="logo do GitHub MONA!" width="150"/>
 
